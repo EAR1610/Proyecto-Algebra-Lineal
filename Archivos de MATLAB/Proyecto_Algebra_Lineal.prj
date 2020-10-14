@@ -1,0 +1,135 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="4121682342" file="C:\Users\Alex\Proyecto_Algebra_Lineal.prj" location="C:\Users\Alex" name="Proyecto_Algebra_Lineal" preferred-package-location="C:\Users\Alex\Proyecto_Algebra_Lineal\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Proyecto_Algebra_Lineal</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Alexander Reynoso | Harold Ochaeta</param.authnamewatermark>
+    <param.email>alexreynosoruano741@gmail.com</param.email>
+    <param.company>EAR1610</param.company>
+    <param.summary />
+    <param.description>Proyecto de Algebra Lineal que consiste en realizar el producto de dos matrices y el coeficiente binomial.</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\EAR1610\Proyecto_Algebra_Lineal\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.summary />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ProyectoAL.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\EjemploCB.fig</file>
+      <file>${PROJECT_ROOT}\EjemploCB.m</file>
+      <file>${PROJECT_ROOT}\EjemploPM.fig</file>
+      <file>${PROJECT_ROOT}\EjemploPM.m</file>
+      <file>${PROJECT_ROOT}\ProyectoAL.fig</file>
+      <file>${PROJECT_ROOT}\ResolverCB.fig</file>
+      <file>${PROJECT_ROOT}\ResolverCB.m</file>
+      <file>${PROJECT_ROOT}\ResolverPM.fig</file>
+      <file>${PROJECT_ROOT}\ResolverPM.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_testing" name="readme.txt" optional="true">C:\Users\Alex\Proyecto_Algebra_Lineal\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_testing" name="Proyecto_Algebra_Lineal.exe" optional="false">C:\Users\Alex\Proyecto_Algebra_Lineal\for_testing\Proyecto_Algebra_Lineal.exe</file>
+      <file location="${PROJECT_ROOT}\Proyecto_Algebra_Lineal\for_testing" name="splash.png" optional="false">C:\Users\Alex\Proyecto_Algebra_Lineal\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
